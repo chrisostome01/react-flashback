@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.blog{
+  border-radius: 12px;
+  box-shadow:  0 0 1px black;
+  padding: 30px;
+  margin: 12px;
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: rgb(194, 189, 189);
+}
+h1{
+  font-size: 20px;
+  color:rgb(16, 92, 69);
+  letter-spacing: 1px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  list-style: none;
+}
+li{
+  margin-left: 20px;
+}
+li a{
+  text-decoration: none;
+  color: rgb(16, 92, 69);
+  cursor: pointer;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgb(16, 92, 69);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+input{
+  margin-bottom: 12px;
+}
+textarea{
+  margin-bottom: 12px;
+}
+select{
+  margin-bottom: 12px;
+}
